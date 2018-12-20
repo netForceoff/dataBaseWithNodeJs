@@ -1,0 +1,54 @@
+
+ .mainAddShop input, .mainAddShop select, .mainAddShop label{
+  position: relative;
+  left: 20px;
+  top: 20px;
+  margin: 10px;
+}
+.mainAddShop input{
+  width: 200px;
+  height: 20px;
+}
+.mainAddShop select {
+  width: 204px;
+
+}
+#selection {
+  position: relative;
+  left: 85px;
+}
+#nameAuthor {
+  position: relative;
+  left: 44px;
+}
+#nameBook{
+  position: relative;
+  left: 22px;
+}
+#city{
+  position: relative;
+  left: 90px;
+}
+#publishing{
+  position: relative;
+  left: 39px;
+}
+#yearPublishing {
+  position: relative;
+  left: 15px;
+}
+#numberOfPages {
+  position: relative;
+  left: 16px;
+}
+#price {
+  position: relative;
+  left: 96px;
+}
+button {
+  position: relative;
+  left: 300px;
+  top: 40px;
+  width: 70px;
+  height: 30px;
+}

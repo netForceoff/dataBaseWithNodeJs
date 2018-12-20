@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><books>
+  
+  
+  <book><numberShop>3</numberShop><section>Учебная</section><autor>А.П.Чехов</autor><nameBook>Чех</nameBook><country>Новоуральск</country><publishing>Тест</publishing><year>Тест</year><numberOfPages>Тест</numberOfPages><cost>Тест</cost></book><book><numberShop>2</numberShop><section>Литература</section><autor>Тест</autor><nameBook>Тест</nameBook><country>Тест</country><publishing>Тест</publishing><year>Тест</year><numberOfPages>Тест</numberOfPages><cost>Тест</cost></book></books>

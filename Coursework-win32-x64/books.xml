@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><books>
+  
+  
+  <book><numberShop>3</numberShop><section>Учебная</section><autor>А.П.Чехов</autor><nameBook>Отцы и дети</nameBook><country>Новоуральск</country><publishing>ООО Печать</publishing><year>1990</year><numberOfPages>345</numberOfPages><cost>299 руб</cost></book><book><numberShop>2</numberShop><section>Литература</section><autor>А.С.Пушкин</autor><nameBook>Преступление и наказание</nameBook><country>Москва</country><publishing>ООО Книга</publishing><year>2000</year><numberOfPages>425</numberOfPages><cost>500 руб</cost></book></books>

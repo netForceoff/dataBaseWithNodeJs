@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Добавить книгу</title>
+    <link rel="stylesheet" href="css/cssAddBook.css">
+  </head>
+  <body>
+    <div class="display">
+      <div class = "mainAddShop">
+        <label for ="numberShop">Номер магазина:</label><input id = "numberShop"  type = "text" placeholder="Введите Номер магазина"><br>
+        <label for ="selection">Раздел:</label><select class="" id="selection"><br>
+                                      <option value="1" selected>Литература</option>
+                                      <option value="2">Деткая</option>
+                                      <option value="3">Художественная</option>
+                                      <option value="4">Учебная</option>
+                                      <option value="5">Роман</option>
+                                      <option value="6">Научно - популярная</option>
+                                      <option value="7">Фантастика</option>
+                                      <option value="8">Ужасы</option>
+                                      </select><br>
+        <label for ="nameAuthor">Автор книги:</label><input type="text" id = "nameAuthor" placeholder="Введите автора"><br>
+        <label for ="nameBook">Название книги:</label><input type="text" id = "nameBook" placeholder="Введите название книги"><br>
+        <label for ="city">Город:</label><input type="text" id = "city" placeholder="Введите город издания"><br>
+        <label for ="publishing">Издательство:</label><input type="text" id = "publishing" placeholder="Введите издателя"><br>
+        <label for ="yearPublishing">Год издательства:</label><input type="text" id = "yearPublishing" placeholder="Введите год издательства"><br>
+        <label for ="numberOfPages">Кол - во страниц:</label><input type="text" id = "numberOfPages" placeholder="Введите кол - во страниц"><br>
+        <label for ="price">Цена:</label><input type="text" id = "price" placeholder="Введите цену"><br>
+        <button type="button" name="button">Создать</button>
+      </div>
+    </div>
+    <script src = "addBook.js"></script>
+  </body>
+</html>

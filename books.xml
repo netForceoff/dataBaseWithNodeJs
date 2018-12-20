@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><books>
+  
+  
+  <book><numberShop>3</numberShop><section>Учебная</section><autor>А.П.Чехов</autor><nameBook>Отцы и дети</nameBook><country>Новоуральск</country><publishing>ООО Книги</publishing><year>1990</year><numberOfPages>200</numberOfPages><cost>350 руб</cost></book><book><numberShop>2</numberShop><section>Литература</section><autor>А.С. Пушкин</autor><nameBook>Герой нашего времени</nameBook><country>Москва</country><publishing>ОО Типография</publishing><year>2004</year><numberOfPages>150</numberOfPages><cost>230 руб</cost></book></books>
