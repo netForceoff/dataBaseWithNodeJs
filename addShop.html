@@ -2,24 +2,34 @@
 <html lang="ru" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Добавить книгу</title>
+    <title>Добавить магазин</title>
     <link rel="stylesheet" href="css/cssAddShop.css">
   </head>
   <body>
-      <div class = 'display'>
-      <div class = "mainShop">
-        <label for="idNumber">Номер магазина: </label><input type="text" id = "idNumber" placeholder="Введите id магазина">
-        <label for="nameShop">Название магазина: </label><input type="text" id = "nameShop" placeholder="Введите название">
-        <label for="shopAddress">Адрес магазина: </label><input type="text" id = "shopAddress" placeholder="Введите адрес">
-        <button>Добавить</button>
-
+      <form>
+          <table>
+            <tr>
+              <td>Номер магазина</td>
+              <td>
+                <input name="id" type="text">
+              </td>
+            </tr>
+            <tr>
+              <td>Название магазина</td>
+              <td>
+                <input name="shopName" type="text">
+              </td>
+            </tr>
+            <tr>
+              <td>Адрес магазина</td>
+              <td><input type="text" name="shopAddress"></td>
+            </tr>
+          </table>
+          <button type="button" name="button">Создать</button>
+        <script src="creatingVariables.js"></script>
+        <script src="checkForError.js"></script>
         <script type="text/javascript" src = 'addShop.js'></script>
-        <script>
-
-
-
-
-        </script>
       </div>
     </div>
       </body>
+      </html>

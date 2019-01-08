@@ -1,24 +1,42 @@
-.mainShop{
-    width: 400px;
-    height: 400px;
+.error input {
+    outline: 1px solid red;
 }
-.mainShop label, .mainShop button {
-    position: relative;
-    top: 68px;
-    display: block;
-    margin: 10px;
-    left: 50px;
-}
-.mainShop input {
-    position: relative;
-    left: 200px;
-    top: 38px;
-    height: 20px;
 
+.error {
+    color: red;
 }
-.mainShop button {
-    position: relative;
-    left: 292px;
+
+button {
+    margin-left: 210px;
+    background: none;
+    color: #fff;
+    width: 100px;
     height: 30px;
-    width: 70px;
-}
+    border: 1px solid white;
+    font-size: 14px;
+    border-radius: 30px;
+    transition: .4s;
+    box-sizing: border-box;
+    cursor: pointer;
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+    }
+    
+    button:focus {
+      outline: none;
+    }
+    
+    button:hover {
+     animation: animate 8s linear infinite;
+    }
+    @keyframes animate 
+    {
+      0%
+      {
+        background-position: 0%;
+      }
+      100%
+      {
+        background-position: 400%;
+      }
+    }

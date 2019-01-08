@@ -1,4 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?><books>
-  
-  
-  <book><numberShop>3</numberShop><section>Учебная</section><autor>А.П.Чехов</autor><nameBook>Отцы и дети</nameBook><country>Новоуральск</country><publishing>ООО Книги</publishing><year>1990</year><numberOfPages>200</numberOfPages><cost>350 руб</cost></book><book><numberShop>2</numberShop><section>Литература</section><autor>А.С. Пушкин</autor><nameBook>Герой нашего времени</nameBook><country>Москва</country><publishing>ОО Типография</publishing><year>2004</year><numberOfPages>150</numberOfPages><cost>230 руб</cost></book></books>
+
+<book><numberShop>1</numberShop><section>Детская</section><autor>А.П. Чехов</autor><nameBook>Вишневый сад</nameBook><country>Москва</country><publishing>ООО книжный</publishing><year>2007</year><numberOfPages>324</numberOfPages><cost>1252</cost></book><book><numberShop>2</numberShop><section>Художественная</section><autor>А.С. Пушкин</autor><nameBook>Руслан и Людмила</nameBook><country>Санкт-Петербург</country><publishing>ООО книга</publishing><year>1994</year><numberOfPages>125</numberOfPages><cost>356</cost></book><book><numberShop>3</numberShop><section>Художественная</section><autor>Л.Н. Толстой</autor><nameBook>Война и мир</nameBook><country>Москва</country><publishing>ООО Печать</publishing><year>2001</year><numberOfPages>123</numberOfPages><cost>567</cost></book></books>

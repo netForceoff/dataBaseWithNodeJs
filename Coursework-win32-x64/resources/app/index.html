@@ -11,18 +11,15 @@
         <ul>
           <li><a id = "addButtonBook" href="#">Добавить книгу</a></li>
           <li><a id = "addButtonShop" href="#">Добавить магазин</a></li>
-          <li><a id = 'openFileXml' href="#"></a></li>
-          <li><span>Книжные магазины</span></li>
+          <li><a id = 'buttonForWatchingShop' href="#">Просмотреть магазины</a></li>
         </ul>
+        <div class="search-box">
+          <input class = "search" type="text" placeholder="Введите данные" onkeyup="getSearchOnTable()">
+          <a href="#" class="search-btn">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </a>
+        </div>
       </header>
-
-      <div class="search-box">
-        <input class = "search" type="text" placeholder="Введите данные" onkeyup="getSearchOnTable()">
-        <a href="#" class="search-btn">
-          <i class="fa fa-search" aria-hidden="true"></i>
-        </a>
-      </div>
-
       <div class="baseData">
         <table class="table table-striped">
           <tr class = 'nameTable'>
@@ -35,13 +32,15 @@
             <th>Издательство</th>
             <th>Год издательства</th>
             <th>Кол-во страниц</th>
-            <th>Цена</th>
+            <th>Цена (руб.)</th>
             <th>Удалить</th>
           </tr>
         </table>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-   <script type="text/javascript" src = "script.js">
-    </script>
+    <script src="openingWindow.js"></script>
+    <script src="search.js"></script>
+    <script src="savingFile.js"></script>
+    <script src="creatingVariables.js"></script>
+    <script type="text/javascript" src = "script.js"></script>
   </body>
 </html>

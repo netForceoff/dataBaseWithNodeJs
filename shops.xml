@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<shops>
+<?xml version="1.0" encoding="UTF-8"?><shops>
   <shop>
   <numberShop>1</numberShop>
   <nameShop>Книжный</nameShop>
@@ -7,12 +6,12 @@
 </shop>
   <shop>
 <numberShop>2</numberShop>
-<nameShop>Канцелярия</nameShop>
+<nameShop>Канцелярия </nameShop>
 <shopAddress>г.Санкт-Петербург ул. Пушкина 25</shopAddress>
 </shop>
 <shop>
 <numberShop>3</numberShop>
-<nameShop>Нет названия</nameShop>
+<nameShop>  Нет названия </nameShop>
 <shopAddress>г.Москва ул. Книжная 88</shopAddress>
 </shop>
 </shops>

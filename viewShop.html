@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Просмотр магазинов</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type = "text/css" href = "css/viewShop.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a id = "add">Добавить магазин</a></li>
+            </ul>
+            <div class="search-box">
+                <input class = "search" type="text" placeholder="Введите данные" onkeyup="getSearchOnTable()">
+                <a href="#" class="search-btn">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <div class="baseData">
+        <table class="table table-striped">
+          <tr class = 'nameTable'>
+            <th id ="id">Номер магазина</th>
+            <th>Название магазина</th>
+            <th>Адрес</th>
+            <th>Удалить</th>
+          </tr>
+        </table>
+    </div>
+    <script src="openingWindow.js"></script>
+    <script src="search.js"></script>
+    <script src="savingFile.js"></script>
+    <script src="creatingVariables.js"></script>
+    <script type="text/javascript" src = "viewShop.js"></script>
+</body>
+</html>

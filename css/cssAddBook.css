@@ -1,54 +1,53 @@
-
- .mainAddShop input, .mainAddShop select, .mainAddShop label{
-  position: relative;
-  left: 20px;
-  top: 20px;
-  margin: 10px;
-}
-.mainAddShop input{
-  width: 200px;
-  height: 20px;
-}
-.mainAddShop select {
-  width: 204px;
-
-}
-#selection {
-  position: relative;
-  left: 85px;
-}
-#nameAuthor {
-  position: relative;
-  left: 44px;
-}
-#nameBook{
-  position: relative;
-  left: 22px;
-}
-#city{
-  position: relative;
-  left: 90px;
-}
-#publishing{
-  position: relative;
-  left: 39px;
-}
-#yearPublishing {
-  position: relative;
-  left: 15px;
-}
-#numberOfPages {
-  position: relative;
-  left: 16px;
-}
-#price {
-  position: relative;
-  left: 96px;
-}
 button {
-  position: relative;
-  left: 300px;
-  top: 40px;
-  width: 70px;
-  height: 30px;
+  margin-top: 10px;
+margin-left: 195px;
 }
+
+#section {
+  width: 173px;
+}
+
+button {
+  background: none;
+  color: #fff;
+  width: 100px;
+  height: 30px;
+  border: 1px solid white;
+  font-size: 14px;
+  border-radius: 30px;
+  transition: .4s;
+  box-sizing: border-box;
+  cursor: pointer;
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  background-size: 400%;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button:hover {
+   animation: animate 8s linear infinite;
+  }
+  @keyframes animate 
+  {
+    0%
+    {
+      background-position: 0%;
+    }
+    100%
+    {
+      background-position: 400%;
+    }
+  }
+
+input, select {
+  outline: none;
+}
+.error input, .error select {
+        outline: 1px solid red;
+        margin-right: 10px;
+      }
+      .error{
+        color: red;
+      }
